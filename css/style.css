@@ -1,0 +1,13 @@
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+header div i {
+  font-size: 2em;
+}
