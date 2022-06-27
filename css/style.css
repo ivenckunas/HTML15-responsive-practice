@@ -24,7 +24,7 @@ header p i {
 }
 
 .hero {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   padding: 2rem 0;
 }
@@ -52,5 +52,51 @@ header p i {
 }
 
 .hero-img {
-  max-width: 80%;
+  max-width: 60%;
+}
+
+.services {
+  width: 90%;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.services__title {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.services__text {
+  color: grey;
+  padding-bottom: 3rem;
+  font-size: 0.9rem;
+}
+
+.services__list-item {
+  margin-bottom: 2em;
+}
+
+.services__list-item i {
+  font-size: 2em;
+  padding-bottom: 2rem;
+}
+
+.services__list-item h3 {
+  font-weight: normal;
+}
+
+.numbers {
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(204, 185, 221) 0%, rgba(86, 186, 251, 1) 100%);
+  text-align: center;
+}
+
+.numbers__item {
+  padding: 2rem;
+  color: white;
+}
+
+.numbers__item-num {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 0;
 }
