@@ -28,6 +28,10 @@ header p i {
   padding: 20px;
 }
 
+nav {
+  display: none;
+}
+
 .hero {
   margin: 0 auto;
   padding: 10% 2rem;
@@ -121,10 +125,13 @@ header p i {
 }
 
 @media screen and (min-width: 768px) {
+  nav {
+    display: none;
+  }
   .hero {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .hero__left {
@@ -160,6 +167,20 @@ header p i {
 }
 
 @media screen and (min-width: 1200px) {
+  .burger {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+  }
+
+  nav a {
+    padding-left: 1.5em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
   .services__list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
