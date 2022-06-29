@@ -20,6 +20,7 @@
   position: relative;
   color: whitesmoke;
   margin-bottom: 2rem;
+  transition: 0.3s;
 }
 
 .tiles__item img {
@@ -97,6 +98,7 @@ footer p {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
+  transition: 0.3s;
 }
 
 .container__footer a {
@@ -172,8 +174,9 @@ form p {
   }
 
   .container__footer {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    transition: 0.3s;
   }
 
   .mobile-display-none {
